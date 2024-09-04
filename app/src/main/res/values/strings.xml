@@ -1,0 +1,51 @@
+<resources>
+    <string name="default_web_client_id" translatable="false">107499656577-u7frgs14i83ft85rdbfqae9vn9bm20qe.apps.googleusercontent.com</string>
+    <string name="app_name">Melo</string>
+    <string name="v_1_0">V.1.0</string>
+    <string name="map_id">1331964e50455162</string>
+    <string name="welcom_melomart">Welcom MeloMart!</string>
+    <string name="welcome_melomart">Welcome MeloMart!</string>
+    <string name="search">| Search</string>
+    <string name="Search">| Search</string>
+    <string name="bottom_nav_Home_title">Home</string>
+    <string name="bottom_nav_shop_title">Shop</string>
+    <string name="bottom_nav_cart_title">Cart</string>
+    <string name="bottom_nav_account_title">Account</string>
+    <string name="side_nav_home_title">Home</string>
+    <string name="side_nav_profile_title">Profile</string>
+    <string name="side_nav_orders_title">Orders</string>
+    <string name="side_nav_Wishlist_title">Wishlist</string>
+    <string name="side_nav_setting_title">Settings</string>
+    <string name="side_nav_login_title">Login</string>
+    <string name="side_nav_logout_title">Logout</string>
+
+    <string name="drawer_open">Navigation Drawer Open</string>
+    <string name="drawer_close">Navigation Drawer Close</string>
+    <string name="Tharushi">Tharushi</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="f">Sign In</string>
+    <string name="re_enter_password">Re Enter Password</string>
+    <string name="email">Email</string>
+    <string name="user_name">User Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="emailt">email</string>
+    <string name="name">name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="we_provide_best_products">We provide best products.</string>
+    <string name="new_products">New Products</string>
+    <string name="search_hint">Search\n</string>
+    <string name="load">load</string>
+    <string name="price">price</string>
+    <string name="product_name">Product Name</string>
+    <string name="about_us">About Us</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

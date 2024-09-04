@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lpurple"
+    android:backgroundTintMode="add"
+    tools:context=".activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashlog"
+        android:layout_width="264dp"
+        android:layout_height="492dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="clip_vertical"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/welcome_melomart"
+        android:textColor="@color/tPink" />
+
+    <ProgressBar
+        android:id="@+id/splashProgressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:indeterminateTint="@color/tPink"
+        android:visibility="invisible" />
+</FrameLayout>

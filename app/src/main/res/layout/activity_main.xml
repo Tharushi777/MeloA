@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lpurple"
+            app:navigationIcon="@drawable/baseline_list_24">
+
+            <EditText
+                android:id="@+id/textInputSearch"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/custom_input_search"
+                android:drawableStart="@drawable/base_cam_icon"
+                android:drawableEnd="@drawable/search_icon"
+                android:hint="@string/search"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/signoutbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/lpurple"
+                android:text="sign out"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+
+        <FrameLayout
+            android:id="@+id/contahome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="InvalidId" />
+
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lpurple"
+            app:itemIconTint="@drawable/bottom_nav_custom"
+            app:itemTextColor="@color/tPink"
+            app:menu="@menu/bottom_nav_menu" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationview"
+        android:layout_gravity="start"
+        app:itemIconTint="@drawable/bottom_nav_custom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/side_nav_header_layout"
+        app:menu="@menu/side_nav"/>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

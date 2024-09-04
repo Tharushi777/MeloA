@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107499656577",
+    "project_id": "fir-authm-9429c",
+    "storage_bucket": "fir-authm-9429c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107499656577:android:978e8b97b35f5e47744480",
+        "android_client_info": {
+          "package_name": "lk.javainstitute.melo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBwIwFCwB-Bi0z8otxo5dyupZf6z_f-Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

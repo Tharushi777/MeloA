@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/sideNavGroupMain">
+
+        <item android:id="@+id/i1"
+            android:title="Home"
+            android:icon="@drawable/house"
+
+            android:iconTint="@color/black"
+            android:checked="true"/>
+
+
+        <item android:id="@+id/i2"
+            android:title="@string/side_nav_profile_title"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:visible="false"/>
+
+        <item android:id="@+id/i3"
+            android:title="@string/side_nav_orders_title"
+            android:icon="@drawable/order"
+            android:visible="false"/>
+
+
+        <item android:id="@+id/SideNavSetting"
+            android:title="@string/side_nav_setting_title"
+            android:icon="@drawable/settings_icon"
+            android:visible="false"/>
+
+        <item android:id="@+id/SideNavaboutus"
+            android:title="@string/about_us"
+            android:icon="@drawable/contact"
+            android:visible="false"/>
+
+        <item android:id="@+id/SideNavSignout"
+            android:title="@string/sign_out"
+
+            android:visible="false"/>
+
+
+    </group>
+
+    <group android:id="@+id/sideNaveGroupAuth">
+
+        <item android:id="@+id/SideNavLogin"
+            android:title="@string/side_nav_login_title"
+           />
+
+        <item android:id="@+id/SideNavLogout"
+            android:title="@string/side_nav_logout_title"
+            android:visible="false"/>
+
+    </group>
+
+
+
+
+</menu>
